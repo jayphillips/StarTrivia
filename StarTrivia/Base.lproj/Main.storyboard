@@ -206,6 +206,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="APd-mn-8Fq"/>
+                    <connections>
+                        <outlet property="birthYearLabel" destination="Erg-bj-jwl" id="YLA-fX-6P5"/>
+                        <outlet property="genderLabel" destination="0ze-G5-fFs" id="BGc-aw-D9l"/>
+                        <outlet property="hairLabel" destination="icz-T4-cvC" id="dGT-wA-BRS"/>
+                        <outlet property="heightLabel" destination="Toq-dd-UHS" id="PkL-xl-LxE"/>
+                        <outlet property="massLabel" destination="t3i-A7-Bfj" id="was-kY-ivg"/>
+                        <outlet property="nameLabel" destination="AUY-31-jJ0" id="IJn-Hs-jbb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
