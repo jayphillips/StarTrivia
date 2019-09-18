@@ -10,5 +10,7 @@ import UIKit
 
 let blackBackground = UIColor.black.withAlphaComponent(0.6).cgColor
 let urlBase = "https://swapi.co/api/"
-let personURL = urlBase + "people/1/"
+let personURL = urlBase + "people/"
+
+typealias PersonResponseCompletion = (Person?) -> Void
 
